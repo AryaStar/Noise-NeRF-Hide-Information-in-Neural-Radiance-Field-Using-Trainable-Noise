@@ -1,7 +1,7 @@
 # Noise-NeRF-Hide-Information-in-Neural-Radiance-Field-Using-Trainable-Noise
 
 
-![](adv\framework.png)
+![](adv/framework.png)
 ## Project Installation
 
 This project implements steganography for [NeRF](http://www.matthewtancik.com/nerf) (Neural Radiance Fields), based on [nerf-pytorch](https://github.com/yenchenlin/nerf-pytorch).
@@ -32,7 +32,7 @@ python run_adv_cut.py --config experiment/configs/{DATASET}.txt --target_pose_nu
 
 `{DATASET}` represents different NeRF scene datasets, `{pose}` represents the viewpoint used for steganography, and `{Adv}` represents the steganographically embedded image. See run.sh for more examples.
 
-![](adv\ret.png)
+![](adv/ret.png)
 
 ### Reproducibility 
 
