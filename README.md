@@ -30,7 +30,7 @@ Performing high-resolution image steganography on NeRF:
 python run_adv_cut.py --config experiment/configs/{DATASET}.txt --target_pose_num {pose} --Adv '{Adv_HD}.png' --Cut
 ```
 
-`{DATASET}` represents different NeRF scene datasets, `{pose}` represents the viewpoint used for steganography, and `{Adv}` represents the steganographically embedded image. See run.sh for more examples.
+`{DATASET}` represents different NeRF scene datasets, `{pose}` represents the viewpoint used for steganography, and `{Adv}` represents the steganographically embedded image. See [run.sh](run.sh) for more examples.
 
 ![](adv/ret.png)
 
